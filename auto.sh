@@ -1,0 +1,1 @@
+curl -A "Mozilla/4.0 (compatible;MSIE 7.0; Windows NT6.0)" http://www.baidu.com
