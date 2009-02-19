@@ -8,7 +8,6 @@ for r in open("/Users/uc0079/Desktop/proxy.txt"):
     stdin,stdout,stderr=os.popen3(curl)
     err = stderr.read()
     if err.find("curl:")==-1:
-        f.write(r+"\n")
+        print r
     i+=1
-    print i,r
     time.sleep(2)
